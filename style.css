@@ -42,7 +42,7 @@ body {
 .nav-links a {
     text-decoration: none;
     color: #1E1E2C;
-    font-size: 16px;
+    font-size: 20px;
     transition: color 0.3s;
 }
 
@@ -63,6 +63,7 @@ body {
     border-radius: 20px;
     transition: all 0.3s;
     margin-right: 18px;
+    
 }
 
 .contact-button .btn:hover {
@@ -623,8 +624,12 @@ My Expertise Section
     color: #7a5cf0;
 }
 
+.footer-social {
+    text-align: right; /* Text-align kanan */
+}
+
 .footer-social a {
-    margin: 0 10px;
+    margin-right:0 3px;
     color: #666;
     font-size: 18px;
     text-decoration: none;
@@ -643,7 +648,7 @@ My Expertise Section
 }
 
 .footer-social i {
-    margin: 0 10px;
+    margin: 0 5px;
 }
 
 .footer p {
