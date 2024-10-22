@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>MetaCallista Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
@@ -99,9 +99,6 @@
                 <h3>MC PowerPoint</h3>
                 <p>Expertise in creating presentation slides using Microsoft PowerPoint.</p>
             </div>
-        </div>
-    
-        <div class="expertise-row">
             <div class="card fade-in">
                 <img src="Pictures/html.png" alt="HTML">
                 <h3>HTML</h3>
@@ -119,6 +116,7 @@
             </div>
         </div>
     </section>
+
       
 
     <!-- My Portofolio Section -->
@@ -147,6 +145,7 @@
     </section>
 
     
+    
     <section class="achievements-section" id="achievements">
         <h2>Achievements</h2>
         <div class="achievements-grid achievements-item fade-in">
@@ -165,35 +164,34 @@
         </div>
     </section>
 
+    <div class="contact-section contact-item fade-in" id="contact">
+        <h2>Contact me</h2>
+        <form action="https://formspree.io/f/xovqvvbe" method="POST" class="contact-form">
+            <div class="form-row">
+                <input type="text" name="first-name" placeholder="First name" required>
+                <input type="text" name="last-name" placeholder="Last name" required>
+            </div>
+            <div class="form-row">
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="tel" name="phone-number" placeholder="Phone number" required>
+            </div>
+            <div class="form-row">
+                <select name="topic" required>
+                    <option value="">Select one...</option>
+                    <option value="inquiry">General Inquiry</option>
+                    <option value="feedback">Feedback</option>
+                    <option value="support">Support</option>
+                </select>
+            </div>
+            <div class="form-row">
+                <textarea name="message" placeholder="Type your message..." rows="5" required></textarea>
+            </div>
+            <div class="form-row">
+                <button type="submit" class="send-message-btn">Send Message</button>
+            </div>            
+        </form>
+    </div>
     
-<div class="contact-section contact-item fade-in" id="contact">
-    <h2>Contact me</h2>
-    <form action="https://formspree.io/f/xovqvvbe" method="POST" class="contact-form">
-        <div class="form-row">
-            <input type="text" name="first-name" placeholder="First name" required>
-            <input type="text" name="last-name" placeholder="Last name" required>
-        </div>
-        <div class="form-row">
-            <input type="email" name="email" placeholder="Email" required>
-            <input type="tel" name="phone-number" placeholder="Phone number" required>
-        </div>
-        <div class="form-row">
-            <select name="topic" required>
-                <option value="">Select one...</option>
-                <option value="inquiry">General Inquiry</option>
-                <option value="feedback">Feedback</option>
-                <option value="support">Support</option>
-            </select>
-        </div>
-        <div class="form-row">
-            <textarea name="message" placeholder="Type your message..." rows="5" required></textarea>
-        </div>
-        <div class="form-row">
-            <button type="submit" class="send-message-btn">Send Message</button>
-        </div>            
-    </form>
-</div>
-
     
     <!-- Footer Section -->
     <footer class="footer">
