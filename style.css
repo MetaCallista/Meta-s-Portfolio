@@ -438,12 +438,15 @@ body {
   .education-card h3 {
     font-size: 18px;
     color: #333;
+    padding-bottom: 5px;
   }
   
   .education-card h4 {
     font-size: 20px;
     font-weight: bold;
     color: #333;
+    padding-bottom: 20px;
+    
   }
   
   .education-card p {
